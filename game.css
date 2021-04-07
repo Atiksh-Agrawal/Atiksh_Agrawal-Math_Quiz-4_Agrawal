@@ -1,0 +1,174 @@
+
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#Player_1_name , #Player_2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.head{
+	color: crimson;
+}
+
+input{
+	border-radius: 35px;
+	height: 35px;
+	width: 500px;
+}
+
+
+.login_div1 , .login_div2
+{
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+
+#player1_name , #player2_name
+{
+display: inline-block;
+margin-left: 20px;
+}
+#word
+{
+width: 60%;
+}
+#word_display
+{
+letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.head{
+color: crimson;
+}
+
+input{
+border-radius: 35px;
+height: 35px;
+width: 500px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+font-family: "Inter", sans-serif;
+background: linear-gradient(20deg, #e66465, #9198e5);
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+
+.login {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 50%;
+transform: translate(-50%, 50%);
+background-color: rgba(222, 219, 211, 0.3);
+color: black;
+width: 30rem;
+height: 20rem;
+border-radius: 10px;
+}
+
+.loginForm {
+display: flex;
+flex-flow: column wrap;
+}
+
+.loginTitle {
+color: black;
+letter-spacing: 1px;
+}
+
+.loginTitle h1 {
+text-align: center;
+margin: 0px;
+}
+
+input[type="email"],
+input[type="password"] {
+font-family: inherit;
+-webkit-appearance: none;
+-moz-appearance: none;
+background: rgba(255, 255, 255, 0.2);
+outline: none;
+border: none;
+border-radius: 6px;
+height: 1.3rem;
+padding-left: 0.5rem;
+color: black;
+transition: background 0.5s;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+background: rgba(255, 255, 255, 0.3);
+border: none;
+}
+
+button[type="submit"] {
+border: none;
+height: 2rem;
+width: 8rem;
+border-radius: 20px;
+outline: none;
+background: rgba(1, 1, 1);
+font-family: inherit;
+letter-spacing: 1px;
+color: white;
+transition: background 0.5s, color 0.5s;
+}
+
+button[type="submit"]:hover {
+background: #303030;
+}
+
+.button-submit {
+display: inherit;
+justify-content: center;
+margin-top: 30px;
+}
+
+label p {
+margin-bottom: 5px;
+}
